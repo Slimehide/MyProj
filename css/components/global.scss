@@ -1,0 +1,20 @@
+@import "variables.scss";
+body , html{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:$dark-back;
+}
+body *{
+	font-family:"Montserrat" , "Roboto", sans-serif;
+	box-sizing:border-box;
+}
+div.container{
+	max-width:1200px;
+	padding-left:15px;
+	padding-right:15px;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+}

@@ -1,0 +1,151 @@
+@-webkit-keyframes pulse {
+  0%,to {
+    opacity: .2; }
+  50% {
+    opacity: .55; } }
+@keyframes pulse {
+  0%,to {
+    opacity: .2; }
+  50% {
+    opacity: .55; } }
+header {
+  padding: 10px 0px;
+  background-color: #5a2e98; }
+  header .outer__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .outer__header .left__header > a {
+      text-decoration: none;
+      transition: .4s ease all;
+      color: #FFFFFF;
+      font-weight: 500;
+      font-size: 20px; }
+      header .outer__header .left__header > a:hover {
+        opacity: .7; }
+      header .outer__header .left__header > a span {
+        color: #DC0053; }
+    header .outer__header .right__header .header__buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      header .outer__header .right__header .header__buttons .register__header {
+        margin-left: 15px; }
+        header .outer__header .right__header .header__buttons .register__header > a {
+          display: inline-flex;
+          background-color: #DC0053;
+          justify-content: center;
+          align-items: center;
+          transition: .4s ease all;
+          color: #fff;
+          font-weight: 500;
+          padding: 10px 15px;
+          border-radius: 5px;
+          text-decoration: none;
+          font-size: 18px; }
+          header .outer__header .right__header .header__buttons .register__header > a:hover {
+            opacity: .7; }
+      header .outer__header .right__header .header__buttons .login__header > a {
+        display: inline-flex;
+        background-color: #DC0053;
+        justify-content: center;
+        align-items: center;
+        transition: .4s ease all;
+        color: #fff;
+        font-weight: 500;
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 18px; }
+        header .outer__header .right__header .header__buttons .login__header > a:hover {
+          opacity: .7; }
+    header .outer__header .right__header .logout__profile {
+      margin-left: 20px; }
+      header .outer__header .right__header .logout__profile a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        transition: .4s ease all;
+        color: #FFFFFF;
+        font-size: 22px; }
+        header .outer__header .right__header .logout__profile a:hover {
+          opacity: .7; }
+    header .outer__header .right__header .profile__header {
+      display: flex;
+      align-items: center; }
+      header .outer__header .right__header .profile__header .messages__profile {
+        display: inline-flex;
+        margin-left: 20px; }
+        header .outer__header .right__header .profile__header .messages__profile a {
+          font-size: 22px;
+          color: #FFFFFF;
+          text-decoration: none;
+          transition: .4s ease all;
+          position: relative; }
+          header .outer__header .right__header .profile__header .messages__profile a span {
+            position: absolute;
+            right: -5px;
+            top: -5px;
+            min-width: 14px;
+            min-height: 14px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 250px;
+            font-size: 10px;
+            color: #FFFFFF;
+            font-weight: 400;
+            background-color: #DC0053; }
+          header .outer__header .right__header .profile__header .messages__profile a:hover {
+            opacity: .7; }
+      header .outer__header .right__header .profile__header .notification__profile {
+        display: inline-flex;
+        margin-left: 15px; }
+        header .outer__header .right__header .profile__header .notification__profile a {
+          font-size: 22px;
+          color: #FFFFFF;
+          text-decoration: none;
+          transition: .4s ease all;
+          position: relative; }
+          header .outer__header .right__header .profile__header .notification__profile a span {
+            position: absolute;
+            right: -5px;
+            top: -5px;
+            min-width: 14px;
+            min-height: 14px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 250px;
+            font-size: 10px;
+            color: #FFFFFF;
+            font-weight: 400;
+            background-color: #DC0053; }
+          header .outer__header .right__header .profile__header .notification__profile a:hover {
+            opacity: .7; }
+      header .outer__header .right__header .profile__header .profile__main {
+        position: relative; }
+        header .outer__header .right__header .profile__header .profile__main a {
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          transition: .4s ease all; }
+          header .outer__header .right__header .profile__header .profile__main a:hover {
+            opacity: .7; }
+          header .outer__header .right__header .profile__header .profile__main a i {
+            display: inline-flex;
+            margin-left: 5px;
+            color: #FFFFFF;
+            font-size: 12px; }
+          header .outer__header .right__header .profile__header .profile__main a img {
+            min-width: 40px;
+            max-width: 40px;
+            max-height: 40px;
+            border-radius: 500px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #fff; }
+
+/*# sourceMappingURL=header.css.map */

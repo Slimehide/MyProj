@@ -1,0 +1,112 @@
+@import "variables.scss";
+footer{
+	padding:25px;
+	background-color:#16181b;
+	& .outer__footer{
+		& .bottom__footer{
+			display: flex;
+			justify-content:space-between;
+			align-items:flex-start;
+			margin-top:15px;
+			& .elem__foot{
+				display: flex;
+				flex-direction:column;
+				justify-content:flex-start;
+				width:100%;
+				max-width:140px;
+				&>p{
+					margin:0px;
+					font-size:14px;
+					color:$white;
+					font-weight:500;
+					margin-bottom:7px;
+				}
+				&>a{
+					text-decoration:none;
+					display: inline-flex;
+					transition:.4s ease all;
+					color:$white;
+					opacity:.7;
+					font-size:13px;
+					margin-bottom:7px;
+					&:hover{
+						opacity:.4;
+					}
+					&:last-child{
+						margin-bottom:0px;
+					}
+				}
+			}
+			& .copyright__footer{
+				display: flex;
+				flex-direction:column;
+				align-items:flex-start;
+				justify-content:flex-start;
+				&>span{
+					display: inline-flex;
+					font-size:13px;
+					color:$white;
+				}
+				&>p{
+					margin:0px;
+					margin-top:5px;
+					color:$white;
+					font-size:13px;
+				}
+				&>a{
+					text-decoration: none;
+				    transition: .4s ease all;
+				    color: $white;
+				    font-weight: 500;
+				    font-size: 20px;
+				    display: inline-flex;
+				    margin-bottom:10px;
+				    & span{
+				    	color:$secondary-color;
+				    }
+				}
+			}
+		}
+		& .switcher__letters{
+			& p{
+				margin-top:0px;
+				margin-bottom:10px;
+				font-size:16px;
+				color:#fff;
+				font-weight:500;
+			}
+			& .letter__search{
+				ul{
+					display: flex;
+					flex-wrap:wrap;
+					list-style-type: none;
+					padding:0px;
+					margin:0px;
+					&>li{
+						padding:3px 0px;
+						margin-right:5px;
+						margin-bottom:5px;
+						& a{
+							color:$white;
+							font-size:12px;
+							font-weight:500;
+							transition:.4s ease all;
+							display: inline-flex;
+							padding:3px 5px;
+							text-decoration:none;
+							min-width:28px;
+							justify-content:center;
+							align-items:center;
+							border-radius:5px;
+							background-color:$main-color;
+							&:hover{
+								background-color:$white;
+								color:$main-color;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

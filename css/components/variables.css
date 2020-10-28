@@ -1,0 +1,12 @@
+@-webkit-keyframes pulse {
+  0%,to {
+    opacity: .2; }
+  50% {
+    opacity: .55; } }
+@keyframes pulse {
+  0%,to {
+    opacity: .2; }
+  50% {
+    opacity: .55; } }
+
+/*# sourceMappingURL=variables.css.map */

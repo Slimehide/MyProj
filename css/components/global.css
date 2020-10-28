@@ -1,0 +1,30 @@
+@-webkit-keyframes pulse {
+  0%,to {
+    opacity: .2; }
+  50% {
+    opacity: .55; } }
+@keyframes pulse {
+  0%,to {
+    opacity: .2; }
+  50% {
+    opacity: .55; } }
+body, html {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  background-color: #212529; }
+
+body * {
+  font-family: "Montserrat" , "Roboto", sans-serif;
+  box-sizing: border-box; }
+
+div.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; }
+
+/*# sourceMappingURL=global.css.map */
